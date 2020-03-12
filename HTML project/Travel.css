@@ -1,0 +1,187 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-image: url(background1.jpg);
+	font-family: sans-serif;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav ul li a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+.active, .main-nav ul li:hover
+{
+	background: #fff;
+	border-radius: 3px;
+}
+
+.main-nav li a:hover
+{ 
+    border: 1px solid white:
+}
+
+body
+{
+	font-family: monospace;
+}
+
+#container
+{
+	overflow: hidden;
+	width: 800px;
+	height: 500px;
+	margin: 0 auto;
+	cursor: pointer;
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
+
+#scroller 
+{
+	display: block;
+	padding: 0;
+	width: 200%;
+}
+
+#scroller li
+{
+	padding-right: 10px;
+	display: inline-block;
+	*display: inline;
+}
+
+#scroller scroll
+{
+	width: 160px;
+	height: 120px;
+}
+
+
+.navbar 
+{
+      background:#fff;
+}
+.main-nav
+{   
+    background: #fff;
+    text-align: center;
+}
+
+.main-nav ul
+{ 
+    display: inline-flex;
+	list-style: none;
+	color: #000000;
+}
+
+.main-nav ul li
+{
+	width: 200px;
+	margin: 10px;
+	padding: 15px;
+}
+
+.main-nav ul li a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+.active, .main-nav ul li:hover
+{
+	background: #DDDDDD;
+	border-radius: 3px;
+}
+
+.main-nav li a:hover
+{ 
+    border: 1px solid white:
+}
+
+
+.navbar-collapse 
+{
+      justify-content: flex-end;
+}
+	
+	    .features {
+      margin: 4em auto;
+      padding: 1em;
+      position: relative;
+    }
+    .feature-title {
+      color: #333;
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+	  text-align: center;
+    }
+    .features img {
+      -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+      margin-bottom: 16px;
+    } 
+	
+	 .page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+  text-align: center;
+}
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+  text-align: center;
+}
+	
+	
+	.main-nav
+{   
+    background: #fff;
+    text-align: center;
+}
+
+.main-nav ul
+{ 
+    display: inline-flex;
+	list-style: none;
+	color: #000000;
+}
+
+.main-nav ul li
+{
+	width: 200px;
+	margin: 10px;
+	padding: 15px;
+}
+
+.main-nav ul li a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+.active, .main-nav ul li:hover
+{
+	background: #DDDDDD;
+	border-radius: 3px;
+}
+
+.main-nav li a:hover
+{ 
+    border: 1px solid white:
+}
+
+

@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery ImageScroll Plugin Demo</title>
+<link href="Sports.css" rel="stylesheet" type="text/css">
+<html lang="en">
+  <title>Bootstrap Tutorial Sample Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  
+    <html lang="en">
+      <head>
+        <title>Bootstrap Tutorial Sample Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+      </head>
+    <body>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	   <div class="main-nav">
+		<ul>
+		    <li class="active"><a href="index.html">Home</a></li>
+		</ul>
+    </div>
+</head>
+<body>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div id="container"> <span class="title">Sporting Interests</span>
+  <ul id="imgs">
+    <li><img src="Sports2.jpg"/></li>
+	<li><img src="Sports3.jpg"/></li>
+	<li><img src="Sports4.jpg"/></li>
+	<li><img src="Sports5.jpg"/></li>
+	<li><img src="Sports6.jpg"/></li>
+	
+    
+  </ul>
+  <span class="title"></span> </div>
+<div id="controler"> </div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> 
+<script type="text/javascript" src="ImageScroll.js"></script> 
+<script type="text/javascript">
+
+  $('#imgs').imageScroll({
+    orientation:"left",
+    speed:600,
+    interval:1000,
+    hoverPause:true,
+    callback:function(){
+      var ordinal = $(this).find("img").first().attr("src");
+      <!-- console.log(ordinal); -->
+      $(this).next("span").text("CallbackDisplay: hidden "+ordinal+"!");
+    }
+  });
+
+  </script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-12">
+          <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <p>14 Cork rd, Waterford City, Waterford
+          <br/>info@DINEENCONSULTING.com
+          <br/>+ 01 234 567 88
+          <br/>+ 01 234 567 89</p>
+        </div>
+      </div>
+      <div class="footer-copyright text-center">© 2020 Copyright: DINEENCONSULTING.com</div>
+    </footer>
+</head>
+</html>
+</body>
+</html> 
+
+
+</body>
+</html>
+

@@ -1,0 +1,174 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-image: url(background1.jpg);
+	font-family: sans-serif;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav
+{   
+    background: #fff;
+    text-align: center;
+}
+
+.main-nav ul
+{ 
+    display: inline-flex;
+	list-style: none;
+	color: #000000;
+}
+
+.main-nav ul li
+{
+	width: 200px;
+	margin: 10px;
+	padding: 15px;
+}
+
+.main-nav ul li a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+.active, .main-nav ul li:hover
+{
+	background: #DDDDDD;
+	border-radius: 3px;
+}
+
+.main-nav li a:hover
+{ 
+    border: 1px solid white:
+}
+
+body
+{
+	font-family: monospace;
+}
+
+.row
+{
+	max-width: 1200px
+	margin: auto;
+}
+
+.hero
+{
+	position: absolute;
+    width: 1200px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.container
+{ 
+    width: 595px;
+	height: 25px;
+	margin: 100px auto;
+	background: #fff;
+	position: relative;
+	outline-style: solid;
+	font-size: 14;
+}	
+
+.sub-menu-1
+{
+	display: none;
+}
+
+.main-nav ul li:hover .sub-menu-1
+{
+    display: block;
+	position: absolute;
+	background: #fff;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+
+.main-nav ul li:hover .sub-menu-1
+{
+	display: block;
+	margin: 10px;
+}
+
+.sub-menu-2
+{
+	display: none;
+}
+
+.main-nav ul li:hover .sub-menu-2
+{
+    display: block;
+	position: absolute;
+	background: #fff;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+
+.main-nav ul li:hover .sub-menu-2
+{
+	display: block;
+	margin: 10px;
+}
+
+.image
+{
+	margin-top: 50px;
+	position: center
+}
+
+.heading
+{
+	border-style: solid;
+}
+
+
+	 .page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.footer-copyright {
+  color: #666;
+  padding: 0px 0;
+  text-align: center;
+  background-color: #222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
